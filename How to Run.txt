@@ -1,0 +1,33 @@
+1. install python 3.9 provided and check path is added
+
+2. open DUPLICATE-FILE-DETECTOR folder in vscode
+
+3. Open PowerShell as Administrator
+   Right-click on the Start menu and select "Windows PowerShell (Admin)
+   and run this command to change the policy execution
+   	
+	Set-ExecutionPolicy RemoteSigned
+
+   press Y and Enter
+
+4. create virtual environment using this command in terminal 
+   	
+	python -m venv venv
+  
+   if not created in this its already created 
+
+5. activate virtual env using this command 
+   	
+	venv\Scripts\activate
+
+
+6. install all required libraries using this command 
+   	
+	pip install -r requirements.txt
+   
+   already installed
+
+7. run this project using this command 
+
+   	python src/main.py
+
